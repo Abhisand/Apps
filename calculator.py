@@ -13,7 +13,7 @@ def show():
    if equation == "quit":
       run = False
    else:
-      equation=re.sub('[aA-zZ,"£$(),/?.,@"]',"",equation)
+      equation=re.sub('[aA-zZ,<>"£$(),/?.,@"]',"",equation)
       if previous == 0:
          previous=eval(equation)
       else:
