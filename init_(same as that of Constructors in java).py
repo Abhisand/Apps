@@ -7,5 +7,6 @@ class init_Demo:
 		self.str=msg
 		print("Hi ",self.str)
 
+
 obj=init_Demo(input("Enter the string Here:~>"))
 
