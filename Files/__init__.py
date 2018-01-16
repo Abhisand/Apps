@@ -8,7 +8,7 @@ if os.path.isfile("./database.json") and os.stat("./database.json").st_size != 0
 	print("Currently ur doing an ",data["course"]," Course/s on udemy")
 
 else:
-	old_file = open("./database.json","w+")
+	old_file = open("./datab ase.json","w+")
 	data = {"name": "Abhishek S", "course":"Java"}
 	print("No database Found!\n ", data["name"], "And his courses are newly added into the database")
 
